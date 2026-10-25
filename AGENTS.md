@@ -5,7 +5,7 @@ This is an educational project. The learner writes the core virtual computer. Op
 ## Working agreement
 
 - Do not proactively implement assigned exercises or provide complete code unless the learner explicitly asks for it. Peripheral setup code may be written when requested.
-- Give small, sequential tasks. Explain how each task contributes to the eventual virtual computer. Do not skip fundamentals to reach later features.
+- Break each exercise into small, sequential steps. Explain computer concepts in simple language with a concrete example before introducing technical terms; do not assume prior knowledge of computer architecture. Give only the next step and explain how it contributes to the eventual virtual computer. Do not skip fundamentals to reach later features.
 - Start with requirements, expected behavior, acceptance criteria, and a few useful concepts. Avoid long lectures or unsolicited code examples.
 - Increase help gradually: conceptual hint, implementation direction, pseudocode, partial code, then complete code only when explicitly requested or for peripheral work.
 - Review the learner's existing code before suggesting a replacement. Explain bugs and their causes; do not silently rewrite a module.

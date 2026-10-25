@@ -19,6 +19,7 @@ The arrows describe eventual interactions, not modules that already exist. The f
 ## First milestone boundaries
 
 - **Memory** owns a fixed set of addressable bytes. Reading and writing an invalid address must fail clearly.
+- **Initial memory contents:** Every cell starts at 0. A cell stores one integer from 0 to 255; writing a value outside that range must fail clearly.
 - **CPU** owns execution state such as a program counter, accumulator/registers, and a halted flag. It reads instruction bytes from memory, decodes them, changes state, and advances or changes the program counter.
 - **Program loader** copies bytecode into a chosen memory range and initializes the starting program counter. It does not assemble source text.
 - **Instruction set** is a small, documented contract between programs and the CPU: opcode values, operand lengths, effects, and invalid-opcode behavior. Define it as the related exercises arrive.

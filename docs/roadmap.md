@@ -8,12 +8,14 @@ This order is a learning path, not a fixed specification. Finish and review one 
 
 ### 1.1 Fixed-size memory
 
+- **Plain-language idea:** Imagine a row of numbered boxes. Each box holds one number from 0 to 255. The box number is its address; reading looks at a box, and writing replaces its number.
 - **Objective:** Create an object that stores a fixed number of addressable bytes.
 - **Why:** The CPU needs RAM for instructions and, later, data.
 - **Expected behavior:** Read and write one address; reject invalid addresses and non-byte values clearly.
 - **Acceptance:** Tests cover first and last addresses, an ordinary read/write, an out-of-range address, and an invalid value; capacity cannot change after creation.
 - **Study:** `bytearray`, indexing, invariants, exceptions, boundary tests.
 - **Hint:** Begin by deciding what state the object owns and which operations callers need.
+- **Small steps:** (1) Explain the numbered-box example using a memory of four boxes. (2) Decide what reading and writing should do for a valid address. (3) Decide what should happen for an invalid address or value. (4) Implement the object. (5) Add the acceptance tests. Move to the next step only after the current one is clear.
 - **Depends on:** Repository setup only.
 
 ### 1.2 Load a sequence of bytes
