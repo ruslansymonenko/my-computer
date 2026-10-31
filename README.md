@@ -1,6 +1,6 @@
 # My Computer
 
-An educational virtual computer built in Python, one small exercise at a time. The learner writes the core code; Codex helps with tasks, hints, debugging, and review.
+An educational virtual computer built in Python, one small exercise at a time. 
 
 ## Start here
 
@@ -32,7 +32,7 @@ There is no virtual-computer entry point yet. Once the first runnable program ex
 ## Layout
 
 ```text
-src/my_computer/   Python package; learner implementation goes here
+src/my_computer/   Python package; Implementation goes here
 tests/             Tests for behavior as exercises are completed
 docs/              Architecture, roadmap, learning guide, progress
 AGENTS.md          Rules for Codex in this repository
